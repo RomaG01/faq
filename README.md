@@ -29,9 +29,21 @@ git commit -m "..."
 ``` bash
 git push
 ```
+### Принятие в облако
+```bash
+git pull
+```
 
 # Ссылки:
 ### Git:
 [git-scm.com](https://git-scm.com/)
 ### VS code:
 [code.visualstudio.com](https://code.visualstudio.com/)
+
+# Ресурсы:
+### Шрифты:
+[fonts.google](https://fonts.google.com/)
+
+# Технологии:
+### БЭМ методология:
+[bem.info](https://ru.bem.info/methodology/)
