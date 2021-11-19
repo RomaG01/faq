@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.square {
+    margin-top: 4%;
+    width: 490px;
+    height: 490px;
+    border: 5px solid red;
+    animation: square 3s infinite ease-in-out alternate-reverse;
+}
+.circle {
+    height: 80px;
+    width: 80px;
+    position: relative;
+    border: 5px solid springgreen;
+    border-radius: 50%;
+    display: flex;
+    background-color: springgreen;
+    animation: circle 2.9s infinite ease-in-out alternate-reverse;
+    
+}
+.circle1 {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    border: 5px solid springgreen;
+    border-radius: 50%;
+    display: flex;
+    background-color: springgreen;
+    animation: circle 3s infinite ease-in-out alternate-reverse;
+    
+}
+.circle2 {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    border: 5px solid springgreen;
+    border-radius: 50%;
+    display: flex;
+    background-color: springgreen;
+    animation: circle 3.1s infinite ease-in-out alternate-reverse;
+    
+}
+.circle3 {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    border: 5px solid springgreen;
+    border-radius: 50%;
+    display: flex;
+    background-color: springgreen;
+    animation: circle 3.2s infinite ease-in-out alternate-reverse;
+    
+}
+.circle4 {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    border: 5px solid springgreen;
+    border-radius: 50%;
+    display: flex;
+    background-color: springgreen;
+    animation: circle 3.3s infinite ease-in-out alternate-reverse;
+    
+}
+
+@keyframes circle {
+    0% {
+        background-color: hotpink;
+        border-color: teal;
+        left: 390px;
+    }
+    100% {
+        background-color: palegoldenrod;
+        border-color: turquoise;
+        left: 0px;
+    }
+}
+@keyframes square {
+    0% {
+        border-color: orangered;
+    }
+    25% {
+        border-color: tomato;
+    }
+    50% {
+        border-color: orange;
+    }
+    75% {
+        border-color: goldenrod;
+    }
+    100% {
+        border-color: gold;
+    }
+} 
