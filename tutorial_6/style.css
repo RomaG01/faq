@@ -6,7 +6,7 @@
 html,body {
     width: 100%;
     height: 100%;
-    color: #002460;
+    color: #0049c2;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -28,16 +28,95 @@ html,body {
 }
 
 .Landing__section_blue {
-    background-color: #002460;
+    background-color: #0049c2;
     color: #ffffff;
 }
 
 .Section {
-    padding: 72px 0;
-    width: 760px;
+    padding: 72px;
+    width: 940px;
 }
 
 .Section__title {
     font-size: 32px;
-    font-weight: 700px;
+    font-weight: 700;
+}
+
+.Section__header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.Header__logotype {
+
+}
+
+.Header__menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Menu__link {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 24px;
+    cursor: pointer;
+    opacity: .5;
+    transition: opacity .25;
+}
+
+.Menu__link:hover {
+    opacity: 1;
+}
+
+.Section__slider {}
+
+.Slider__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.Slider__info {}
+
+.Slider__text {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.Slider__button {
+    font-size: 24px;
+    font-weight: 900;
+    padding: 16px 24px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    color: #0049c2;
+}
+
+.Slider_image {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Landing__section_image {
+    background-image: url('images/images/background_image.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
