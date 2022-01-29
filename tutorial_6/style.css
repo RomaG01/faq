@@ -3,10 +3,10 @@
     padding: 0;
 }
 
-html,body {
-    width: 100%;
+html, body {
     height: 100%;
-    color: #0049c2;
+    width: 100%;
+    color: #0249c2;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -15,8 +15,8 @@ html,body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-items: stretch;
     justify-content: flex-start;
+    align-items: stretch;
 }
 
 .Landing__section {
@@ -28,12 +28,12 @@ html,body {
 }
 
 .Landing__section_blue {
-    background-color: #0049c2;
+    background-color: #0249c2;
     color: #ffffff;
 }
 
 .Section {
-    padding: 72px;
+    padding: 56px 0;
     width: 940px;
 }
 
@@ -51,9 +51,7 @@ html,body {
     align-items: stretch;
 }
 
-.Header__logotype {
-
-}
+.Header__logotype {}
 
 .Header__menu {
     display: flex;
@@ -70,14 +68,16 @@ html,body {
     margin-left: 24px;
     cursor: pointer;
     opacity: .5;
-    transition: opacity .25;
+    transition: opacity .25s;
 }
 
 .Menu__link:hover {
     opacity: 1;
 }
 
-.Section__slider {}
+.Section__slider {
+    margin-top: 56px;
+}
 
 .Slider__content {
     display: flex;
@@ -97,22 +97,23 @@ html,body {
 }
 
 .Slider__button {
-    font-size: 24px;
+    display: inline-block;
+    font-size: 32px;
     font-weight: 900;
     padding: 16px 24px;
     border-radius: 7px;
     background-color: #ffffff;
-    color: #0049c2;
+    color: #0249c2;
 }
 
-.Slider_image {
+.Slider__image {
     width: 50%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .Landing__section_image {
@@ -120,3 +121,59 @@ html,body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.Section__content {
+    margin-top: 32px;
+}
+
+.Content__text {
+    font-size: 20px;
+}
+
+.Content__list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.List__element {}
+
+.Element__img {}
+
+.Element__img img {
+    border-radius: 25px;
+}
+
+.Element_title {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: 900;
+    padding: 0 16px;
+}
+
+.Element_info {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 16px;
+}
+
+.Map__info {}
+
+.Map__img {}
+
+.Phone__info {}
+
+.Phone_text {}
+
+.Phone_number {}
+
+.Address__info {}
+
+.Address_text {}
+
+.Address_number {}
