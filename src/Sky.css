@@ -1,0 +1,21 @@
+.Sky {
+    background-color: rgb(10, 22, 85);
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.Moon {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+.Star__wrapper {
+    position: absolute;
+}
+
+.Star {
+    background-color: white;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
